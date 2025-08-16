@@ -1,0 +1,14 @@
+../Drivers/BSP/MPU6050/mpu6050.c:23:6:MPU6050_WriteReg	1
+../Drivers/BSP/MPU6050/mpu6050.c:34:9:MPU6050_ReadReg	1
+../Drivers/BSP/MPU6050/mpu6050.c:54:6:MPU6050_Init	1
+../Drivers/BSP/MPU6050/mpu6050.c:70:6:MPU6050_UpdateData	1
+../Drivers/BSP/MPU6050/mpu6050.c:110:6:MPU6050_GetEularAngle	1
+../Drivers/BSP/MPU6050/mpu6050.c:149:7:MPU6050_GetAx	1
+../Drivers/BSP/MPU6050/mpu6050.c:159:7:MPU6050_GetAy	1
+../Drivers/BSP/MPU6050/mpu6050.c:169:7:MPU6050_GetAz	1
+../Drivers/BSP/MPU6050/mpu6050.c:179:7:MPU6050_GetGx	1
+../Drivers/BSP/MPU6050/mpu6050.c:189:7:MPU6050_GetGy	1
+../Drivers/BSP/MPU6050/mpu6050.c:199:7:MPU6050_GetGz	1
+../Drivers/BSP/MPU6050/mpu6050.c:210:7:MPU6050_GetYaw	1
+../Drivers/BSP/MPU6050/mpu6050.c:220:7:MPU6050_GetPitch	1
+../Drivers/BSP/MPU6050/mpu6050.c:230:7:MPU6050_GetRoll	1

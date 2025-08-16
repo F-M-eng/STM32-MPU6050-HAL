@@ -1,0 +1,5 @@
+../Drivers/BSP/MPU6050/mpu6050_dmp.c:29:23:inv_row_2_scale	7
+../Drivers/BSP/MPU6050/mpu6050_dmp.c:50:23:inv_orientation_matrix_to_scalar	1
+../Drivers/BSP/MPU6050/mpu6050_dmp.c:72:12:run_self_test	2
+../Drivers/BSP/MPU6050/mpu6050_dmp.c:101:5:MPU6050_DMP_init	11
+../Drivers/BSP/MPU6050/mpu6050_dmp.c:171:5:MPU6050_DMP_Get_Date	3
