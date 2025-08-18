@@ -26,6 +26,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Core/Inc/i2c.h ../Core/Inc/main.h ../Core/Inc/usart.h \
  ../Core/Inc/gpio.h ../Core/Src/../../Drivers/BSP/MPU6050/mpu6050.h \
  ../Core/Inc/../../Core/Inc/main.h ../Core/Inc/../../Core/Inc/i2c.h \
+ ../Core/Src/../../Drivers/BSP/MPU6050/mpu6050_dmp.h \
  ../Core/Src/../../Drivers/BSP/MPU6050/mpu6050_dmp.h
 ../Core/Inc/main.h:
 C:/Users/MXQ11/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
@@ -59,4 +60,5 @@ C:/Users/MXQ11/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL
 ../Core/Src/../../Drivers/BSP/MPU6050/mpu6050.h:
 ../Core/Inc/../../Core/Inc/main.h:
 ../Core/Inc/../../Core/Inc/i2c.h:
+../Core/Src/../../Drivers/BSP/MPU6050/mpu6050_dmp.h:
 ../Core/Src/../../Drivers/BSP/MPU6050/mpu6050_dmp.h:

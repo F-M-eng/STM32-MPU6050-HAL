@@ -102,6 +102,7 @@ int main(void)
   MPU6050_ZeroOffsetCalibrated();
 
   float Roll = 0, Yaw = 0, Pitch = 0;
+  float Pitch_A = 0, Roll_A;
   uint32_t Timer = HAL_GetTick();
 
   /* USER CODE END 2 */
@@ -115,8 +116,12 @@ int main(void)
 	  Roll = MPU6050_GetRoll();
 	  Yaw = MPU6050_GetYaw();
 
+	  Pitch_A =  atan2(MPU6050_GetAy(),MPU6050_GetAz()) / 3.14159 * 180.0f;
+	  Roll_A =  atan2(MPU6050_GetAx(),MPU6050_GetAz()) / 3.14159 * 180.0f;
+
 	  char buffer[128];
 	  sprintf(buffer, "%f, %f, %f\n",Roll, Yaw, Pitch);
+//	  sprintf(buffer, "%f, %f\n",Roll, Roll_A);
 	  HAL_UART_Transmit(&huart2, (uint8_t *)buffer, strlen(buffer), HAL_MAX_DELAY);
     /* USER CODE END WHILE */
 

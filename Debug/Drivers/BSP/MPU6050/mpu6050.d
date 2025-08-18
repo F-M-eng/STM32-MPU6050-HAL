@@ -24,7 +24,8 @@ Drivers/BSP/MPU6050/mpu6050.o: ../Drivers/BSP/MPU6050/mpu6050.c \
  C:/Users/MXQ11/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
  C:/Users/MXQ11/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  C:/Users/MXQ11/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- ../Core/Inc/../../Core/Inc/i2c.h ../Core/Inc/../../Core/Inc/main.h
+ ../Core/Inc/../../Core/Inc/i2c.h ../Core/Inc/../../Core/Inc/main.h \
+ ../Drivers/BSP/MPU6050/mpu6050_dmp.h
 ../Drivers/BSP/MPU6050/mpu6050.h:
 ../Core/Inc/../../Core/Inc/main.h:
 C:/Users/MXQ11/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
@@ -53,3 +54,4 @@ C:/Users/MXQ11/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL
 C:/Users/MXQ11/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
 ../Core/Inc/../../Core/Inc/i2c.h:
 ../Core/Inc/../../Core/Inc/main.h:
+../Drivers/BSP/MPU6050/mpu6050_dmp.h:
